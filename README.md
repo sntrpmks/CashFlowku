@@ -90,7 +90,7 @@ CashFlowKuJava/
 
 1. **Clone repositori ini**:
    ```bash
-   git clone https://github.com/username/CashFlowKuJava.git
+   git clone https://github.com/sntrpmks/CashFlowku.git
    ```
 2. **Buka di Android Studio**:
    * Pilih menu **File > Open**, lalu arahkan ke direktori hasil kloning.
