@@ -117,7 +117,7 @@ CashFlowKuJava/
 ## 👨‍💻 Developer
 
 Aplikasi ini dikembangkan dan disempurnakan oleh:
-* **Sinatria Pamungkas**
+* **Ahmad Sinatria Pamungkas**
 
 ---
 
