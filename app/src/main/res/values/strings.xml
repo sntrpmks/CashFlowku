@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CashFlowku</string>
+    
+    <!-- Navigation & Titles -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_sales">Penjualan</string>
+    <string name="title_expenses">Pengeluaran</string>
+    <string name="title_reports">Laporan Keuangan</string>
+    <string name="title_backup">Backup &amp; Restore</string>
+    <string name="title_settings">Pengaturan</string>
+    <string name="title_profile">Profil Usaha</string>
+    <string name="title_inventory">Kelola Produk</string>
+    
+    <!-- Auth Screen -->
+    <string name="welcome_message">Kelola Keuangan UMKM Anda Lebih Praktis</string>
+    <string name="offline_note">100% Offline-First. Data aman di perangkat Anda.</string>
+    
+    <!-- General Actions -->
+    <string name="action_add">Tambah</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_export">Ekspor</string>
+    <string name="action_select">Pilih</string>
+    <string name="action_backup">Backup Sekarang</string>
+    <string name="action_restore">Restore Database</string>
+    <string name="action_logout">Keluar</string>
+    
+    <!-- Labels -->
+    <string name="label_date">Tanggal</string>
+    <string name="label_product">Nama Produk</string>
+    <string name="label_price">Harga</string>
+    <string name="label_qty">Jumlah (Qty)</string>
+    <string name="label_payment">Metode Pembayaran</string>
+    <string name="label_notes">Catatan</string>
+    <string name="label_category">Kategori</string>
+    <string name="label_amount">Nominal</string>
+    <string name="label_receipt">Foto Bukti / Struk</string>
+    <string name="label_stock">Stok</string>
+    <string name="label_net_profit">Laba / Rugi Bersih</string>
+    
+    <!-- Reporting -->
+    <string name="filter_daily">Harian</string>
+    <string name="filter_weekly">Mingguan</string>
+    <string name="filter_monthly">Bulanan</string>
+    <string name="export_pdf">Ekspor ke PDF</string>
+    <string name="export_excel">Ekspor ke Excel</string>
+    
+    <!-- Placeholders / Empty states -->
+    <string name="no_transactions">Belum ada transaksi terbaru</string>
+    <string name="no_products">Belum ada produk di database</string>
+    <string name="search_hint">Cari transaksi...</string>
+    <string name="search_product_hint">Cari nama produk...</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- CashFlowku Brand Colors (Sleek Minimal White & Dark Zinc) -->
+    <color name="colorPrimary">#FFFFFF</color> <!-- Pure White for Header/Toolbar -->
+    <color name="colorPrimaryDark">#FAFAFA</color> <!-- Very Light Gray for Status Bar -->
+    <color name="colorAccent">#18181B</color> <!-- Dark Zinc for primary icons/buttons -->
+    <color name="colorOnPrimary">#18181B</color> <!-- Dark Zinc on White Header -->
+    
+    <color name="colorExpense">#EF4444</color> <!-- Rose Red -->
+    <color name="colorIncome">#10B981</color> <!-- Emerald Green -->
+    
+    <!-- Neutral Colors -->
+    <color name="colorBg">#FAFAFA</color> <!-- Off-white/slate background -->
+    <color name="colorSurface">#FFFFFF</color> <!-- Pure White Card/Surface -->
+    <color name="colorCardBg">#FFFFFF</color> <!-- Pure White Cards -->
+    <color name="colorBorder">#E4E4E7</color> <!-- Minimal soft grey border -->
+    
+    <!-- Text Colors -->
+    <color name="textPrimary">#18181B</color> <!-- Zinc Black for readability -->
+    <color name="textSecondary">#71717A</color> <!-- Zinc Gray -->
+    <color name="textMuted">#A1A1AA</color> <!-- Light Zinc Muted -->
+    
+    <!-- Status / Alert Colors -->
+    <color name="success">#10B981</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+    <color name="info">#18181B</color>
+</resources>

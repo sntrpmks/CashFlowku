@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CashFlowKuJava" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <!-- Override Material 3 default colors to match our Zinc palette and purge purple leaks -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryContainer">@color/colorSurface</item>
+        <item name="colorTertiary">@color/textSecondary</item>
+        <item name="colorTertiaryContainer">@color/colorSurface</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorSurfaceVariant">@color/colorBg</item>
+        <item name="colorOutline">@color/colorBorder</item>
+        
+        <!-- Text/Icon content colors -->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorPrimary</item>
+        <item name="colorOnSecondaryContainer">@color/textPrimary</item>
+        <item name="colorOnTertiary">@color/colorPrimary</item>
+        <item name="colorOnSurface">@color/textPrimary</item>
+        <item name="colorOnSurfaceVariant">@color/textSecondary</item>
+        
+        <item name="android:windowBackground">@color/colorBg</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        
+        <!-- Customize text colors -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+        <!-- Dialog styles to override button text color -->
+        <item name="alertDialogTheme">@style/Theme.CashFlowKuJava.AlertDialog</item>
+        <item name="materialAlertDialogTheme">@style/Theme.CashFlowKuJava.AlertDialog</item>
+    </style>
+
+    <style name="Theme.CashFlowKuJava.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <!-- Force dialog buttons to use colorAccent (zinc black in light mode, light zinc in dark mode) -->
+        <item name="colorPrimary">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.CashFlowKuJava" parent="Base.Theme.CashFlowKuJava" />
+    
+    <!-- Premium Button Styles -->
+    <style name="Widget.CashFlowku.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    
+    <style name="Widget.CashFlowku.Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorAccent</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+</resources>
